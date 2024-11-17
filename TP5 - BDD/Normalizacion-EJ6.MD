@@ -16,7 +16,8 @@
 
 ## CLAVES CANDIDATAS:
 anio_olimpiada y nombre_deportista
-[!NOTE] JUSTIFICACION: Se seleccionaron ambas ya que:
+### JUSTIFICACION: 
+Se seleccionaron ambas ya que:
  - Se respeta la **RESTRICCION A**, y la **RESTRICCION B**.
  - Se evitan redundancias ejemplo: si se seleccionara el nombre del deportista, no podriamos diferenciar a este de otro con el mismo nombre o en que anio participo
  Lo mismo pasa con anio_olimpiada, no podriamos distinguir entre los deportista implicados en ese anio.
