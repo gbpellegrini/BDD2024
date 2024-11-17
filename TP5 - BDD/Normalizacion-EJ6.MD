@@ -33,6 +33,7 @@ Esta clave garantiza la unicidad de cada fila en la tabla.
 - En el esquema original encontramos redundancias, y dependecias funcionales sin organizar.
 - 1NF: El esquema cumple con esta regla, ya que todos los valores son atomicos.
 - 2NF: Primero dividimos el esquema en 3 tablas:
+
  *JUEGOS* (
     anio_olimpiada **PK**,
     pais_olimpiada
