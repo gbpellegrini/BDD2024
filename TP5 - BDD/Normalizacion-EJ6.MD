@@ -15,13 +15,14 @@
 
 
 ## CLAVES CANDIDATAS:
-anio_olimpiada y nombre_deportista
+`anio_olimpiada` y `nombre_deportista`
 ### JUSTIFICACION: 
 Se seleccionaron ambas ya que:
  - Se respeta la **RESTRICCION A**, y la **RESTRICCION B**.
  - Se evitan redundancias ejemplo: si se seleccionara el nombre del deportista, no podriamos diferenciar a este de otro con el mismo nombre o en que anio participo
  Lo mismo pasa con anio_olimpiada, no podriamos distinguir entre los deportista implicados en ese anio.
 Lo mejor seria que cada deportista tenga un ID, pero al no tenerlo, elegimos usar la combinacion de anio_olimpiada + nombre_deportista para identificar de manera unica a cada deportista.
+
 **Conclusion:**
 La clave candidata del esquema JUEGO es:
 (`anio_olimpiada`, `nombre_deportista`)
