@@ -59,10 +59,22 @@ debido a que garantiza la unicidad de cada fila en la tabla.
 
 - 3NF: Cumple con la regla de que no hay dependencias transitivas
 
-## RELACIONES ENTRE TABLAS:
-   JUEGOS Y PARTICIPACIONES: RELACION 1:N.
-   JUEGOS Y DEPORTISTAS (Por medio de participaciones): N:N.
-   DEPORTISTAS Y PARTICIPACIONES: 1:N
+### Diseño en tercera Forma Norma (3FN)
+## Tabla Juegos:
+
+anio_olimpiada **PK**
+pais_olimpiada
+
+## Tabla 'Deportista':
+
+nombre_deportista **PK**
+pais_deportista
+
+## Tabla 'Participacion':
+
+(anio_olimpiada, nombre_deportista) Primary Key compuesta
+nombre_disciplina
+asistente
 
 
 
