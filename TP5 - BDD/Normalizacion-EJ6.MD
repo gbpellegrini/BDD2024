@@ -10,9 +10,13 @@
 
 ## DEPENDENCIAS(DFs):
 DF1: anio_olimpiada -> pais_olimpiada
+
 DF2: nombre_deportista -> pais_deportista
+
 DF3: anio_olimpiada y nombre_deportista -> nombre_deportista
+
 DF4: anio_olimpiada y nombre_deportista -> asistente
+
 
 ## CLAVES CANDIDATAS:
 `anio_olimpiada` y `nombre_deportista`
